@@ -87,11 +87,31 @@ class Hello {
         }
 
         if (p > s) {
-            System.out.println(p);
+            // System.out.println(p);
         }   else {
-            System.out.println(s);
+            // System.out.println(s);
         }
 
-        // System.out.println(!result6);
+
+        int o = 8;
+        int q = 7;
+        int r = 6;
+
+        if(o > q && o > r){
+            System.out.println(o);
+        }   else if (q > r) {
+            System.out.println(q);
+        }   else {
+            System.out.println(r);
+        }
+
+        int n = 4;
+        int result = 0;
+
+        if(n % 2 == 0) 
+            result = 10;
+        else
+            result = 20;
+        System.out.println(result);
     }
 }
