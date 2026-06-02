@@ -22,4 +22,4 @@ To build a strong foundation in Java by understanding core concepts and solving 
 ✅ Conditional Statements  
 ✅ Switch Cases  
 ✅ Loops  
-🔄 Next: Object Oriented Programing (OOPS)
+🔄 Next: Arrays
