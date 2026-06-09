@@ -1,179 +1,110 @@
-# ☕ Java Learning Journey
+# ☕ Java Practice & Learning Repository
 
-Welcome to my Java learning repository!
-
-I am currently learning Java by following the excellent Java course by Telusko:
-
-📺 Course Link: https://www.youtube.com/watch?v=q6z_UCBM5Ek
-
-This repository contains my daily practice programs, notes, and hands-on exercises as I progress through the course.
-
----
-
-## 🚀 Learning Progress
-
-### ✅ Day 1 - Java Basics
-
-Topics Covered:
-- Java Program Structure
-- Print Statements
-- Primitive Data Types
-  - int
-  - byte
-  - short
-  - long
-  - float
-  - double
-  - char
-  - boolean
-- Literals
-  - Binary Literals
-  - Hexadecimal Literals
-  - Numeric Separators
-  - Scientific Notation
-- Type Casting
-- Operators
-  - Arithmetic Operators
-  - Assignment Operators
-  - Increment & Decrement Operators
-- Relational Operators
-- Logical Operators
-- Conditional Statements
-  - if
-  - if-else
-  - if-else-if ladder
-
----
-
-### ✅ Day 2 - Control Flow & Loops
-
-Topics Covered:
-- Ternary Operator (`?:`)
-- Switch Statements
-- Loops
-  - while loop
-  - do-while loop
-  - for loop
-- Nested Loops
-- Practical Looping Examples
-
----
-
-### ✅ Day 3 - Methods, Classes & Arrays
-
-Topics Covered:
-- Classes and Objects
-- Instance Variables
-- Methods
-- Method Parameters
-- Return Types
-- Method Overloading
-- Object Creation
-- Arrays
-  - 1D Arrays
-  - 2D Arrays
-  - Jagged Arrays
-- Enhanced For Loop (for-each)
-- Working with Random Values
-- Introduction to Student Objects in Arrays
-
----
-
-### ✅ Day 4 - Strings & Encapsulation
-
-Topics Covered:
-- String Class
-- String Methods
-  - charAt()
-  - concat()
-  - hashCode()
-- StringBuffer
-  - append()
-  - deleteCharAt()
-  - capacity()
-  - length()
-- Encapsulation
-- Private Variables
-- Getters and Setters
-- `this` Keyword
-- Creating Secure Classes
+A clean, structured workspace containing daily practice programs, hands-on exercises, and implementation codes developed while mastering the Java programming language.
 
 ---
 
 ## 📂 Repository Structure
 
+The codebase is organized chronologically into daily folders, each containing standalone executable Java files and concepts:
+
 ```text
 Java/
-│
-├── JavaDay1/
-│   └── Hello.java
-│
-├── JavaDay2/
-│   └── Main.java
-│
-├── JavaDay3/
-│   └── Main.java
-│
-└── JavaDay4/
-    └── Main.java
+├── JavaDay1/        # Daily practice source files
+├── JavaDay2/        # Daily practice source files
+├── JavaDay3/        # Daily practice source files
+├── JavaDay4/        # Daily practice source files
+├── JavaDay5/        # Daily practice source files
+└── JavaDay6/        # Daily practice source files
 ```
 
 ---
 
-## 🎯 Goals
+## 🚀 Topics Covered (Learning Journey)
 
-- Learn Core Java thoroughly
-- Build strong Object-Oriented Programming concepts
-- Practice coding daily
-- Create mini-projects
-- Move towards Advanced Java and Spring Boot
+Here is a summary of the Java concepts explored and practiced across the daily folders:
 
----
+### 📅 Day 1: Java Basics
+* **Core Syntax:** Program structure, print statements, primitive data types, literals, and type casting.
+* **Operators:** Arithmetic, relational, logical, and assignment operators.
+* **Control Flow:** Basic conditional structures (`if`, `if-else`, and `if-else-if` ladders).
 
-## 📚 Learning Resource
+### 📅 Day 2: Control Flow & Loops
+* **Switch & Ternary:** Using `switch` statements and the ternary operator (`? :`).
+* **Loop Structures:** Repeating actions with `while`, `do-while`, and `for` loops (including nested loops).
 
-**Telusko - Complete Java Course**
+### 📅 Day 3: Classes, Methods & Arrays
+* **OOP Foundations:** Creating custom classes, instantiating objects, instance variables, methods, parameters, and return types.
+* **Method Overloading:** Implementing methods with the same name but different signatures.
+* **Arrays:** Creating and manipulating 1D arrays, 2D arrays, jagged arrays, and iterating using the enhanced `for-each` loop.
 
-https://www.youtube.com/watch?v=q6z_UCBM5Ek
+### 📅 Day 4: Strings & Encapsulation
+* **String Classes:** Immutable strings (`String`) and mutable strings (`StringBuffer`) along with their common methods.
+* **Encapsulation:** Restricting access to data fields with `private` access modifiers and accessing them via Getters & Setters.
+* **`this` Keyword:** Resolving namespace ambiguity between fields and parameters.
 
----
+### 📅 Day 5: Constructors, Static Keyword & Anonymous Objects
+* **Constructors:** Default and parameterized constructors to initialize instance states.
+* **Static Block & Variables:** Understanding class-level state and the static initialization blocks.
+* **Class Loading:** Dynamic loading of classes using `Class.forName()`.
+* **Anonymous Objects:** Creating objects that are instantiated but not assigned to reference variables.
 
-## 🛠 Technologies Used
-
-- Java
-- VS Code / IntelliJ IDEA
-- Git & GitHub
-
----
-
-## 📈 Current Status
-
-✔ Java Fundamentals
-
-✔ Data Types
-
-✔ Operators
-
-✔ Control Statements
-
-✔ Loops
-
-✔ Methods
-
-✔ Classes & Objects
-
-✔ Arrays
-
-✔ Strings
-
-✔ Encapsulation
-
-🔄 Currently Continuing Java OOP Concepts
+### 📅 Day 6: Inheritance & Constructor Chaining
+* **Inheritance:** Designing hierarchical relationships (single and multilevel inheritance with classes like `Calc`, `AdvCalc`, and `VeryAdvCalc`).
+* **Constructor Chaining:** Controlling constructor execution flow in inheritance chains using `super()` and `this()` calls.
 
 ---
 
-### 🌟 Note
+## 📚 Learning Reference
 
-This repository is part of my Java learning journey. New concepts and programs will be added regularly as I progress through the course.
+This practice repository follows the structured learning path of the following course:
+* **Course:** [Telusko - Complete Java Course (YouTube)](https://www.youtube.com/watch?v=q6z_UCBM5Ek)
 
-Happy Coding! 🚀
+---
+
+## 🛠️ Prerequisites & Setup
+
+To compile and run the programs in this repository, ensure you have the **Java Development Kit (JDK)** installed on your machine.
+
+### 1. Verification
+Verify if Java is installed and configured on your path by running:
+```bash
+java -version
+javac -version
+```
+
+### 2. Recommended Setup
+- **JDK Version:** JDK 17 or higher is recommended.
+- **Preferred IDEs/Editors:**
+  - **VS Code** (with the *Extension Pack for Java* installed)
+  - **IntelliJ IDEA**
+  - **Eclipse**
+
+---
+
+## 🚀 How to Run the Code
+
+You can compile and run any of the daily programs directly from your terminal.
+
+### Step 1: Compile the Program
+Navigate to the root directory of this repository and compile the target Java file using the Java compiler (`javac`):
+```bash
+javac JavaDay6/Main.java
+```
+
+### Step 2: Run the Executable
+Execute the compiled bytecode using the Java runner (`java`). Make sure to specify the package-relative path:
+```bash
+java JavaDay6.Main
+```
+
+---
+
+## ⚙️ Environment Configuration (Windows)
+
+If the commands `java` or `javac` are not recognized, follow these steps to add Java to your System PATH:
+1. Search for **Edit the system environment variables** in the Windows Search Bar.
+2. Click **Environment Variables...** at the bottom right.
+3. Under **System Variables**, select the `Path` variable and click **Edit...**.
+4. Click **New** and append the path to your JDK's `bin` folder (e.g., `C:\Program Files\Java\jdk-21\bin`).
+5. Click **OK** to save and apply the changes. Close and reopen your terminal.
