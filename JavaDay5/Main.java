@@ -54,42 +54,66 @@
 
 // static keyword
 
+// package JavaDay5;
+
+// class Mobile {
+//    String brand;
+//    int price;
+//    static String name;
+
+//     static {
+//         name = "Phone";
+//         System.out.println("In Static Block");
+//     }
+
+//    public Mobile()
+//    {
+//     brand = "";
+//     price = 200;
+//     System.out.println("In Constructor Block");
+//    }
+
+//    public void show()
+//    {
+//     System.out.println(brand + " : " + price + " : " + name);
+//    }
+
+// }
+// public class Main {
+//     public static void main(String[]args) throws ClassNotFoundException {
+
+//         Class.forName("JavaDay5.Mobile");
+
+//     //    Mobile obj1 = new Mobile();
+//     //    obj1.brand = "Apple";
+//     //    obj1.price = 1500;
+//     //    Mobile.name = "SmartPhone"; 
+
+//     //    Mobile obj2 = new Mobile();
+
+//     }
+// }
+
 package JavaDay5;
 
-class Mobile {
-   String brand;
-   int price;
-   static String name;
-
-    static {
-        name = "Phone";
-        System.out.println("In Static Block");
+    class A {
+        public A()
+        {
+            System.out.println("Object Created");
+        }
+        public void show()
+        {
+            System.out.println("in A show");
+        }
     }
 
-   public Mobile()
-   {
-    brand = "";
-    price = 200;
-    System.out.println("In Constructor Block");
-   }
-
-   public void show()
-   {
-    System.out.println(brand + " : " + price + " : " + name);
-   }
-
-}
 public class Main {
-    public static void main(String[]args) throws ClassNotFoundException {
+    public static void main(String[]args) {
+        // A obj;
+        // obj = new A();
+        // obj.show();
 
-        Class.forName("JavaDay5.Mobile");
-
-    //    Mobile obj1 = new Mobile();
-    //    obj1.brand = "Apple";
-    //    obj1.price = 1500;
-    //    Mobile.name = "SmartPhone"; 
-
-    //    Mobile obj2 = new Mobile();
-
+        new A().show();
+        new A().show();
     }
 }
