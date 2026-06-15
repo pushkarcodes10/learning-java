@@ -15,7 +15,9 @@ Java/
 ├── JavaDay3/        # Daily practice source files
 ├── JavaDay4/        # Daily practice source files
 ├── JavaDay5/        # Daily practice source files
-└── JavaDay6/        # Daily practice source files
+├── JavaDay6/        # Daily practice source files
+├── JavaDay7/        # Daily practice source files
+└── JavaDay8/        # Daily practice source files
 ```
 
 ---
@@ -52,6 +54,15 @@ Here is a summary of the Java concepts explored and practiced across the daily f
 ### 📅 Day 6: Inheritance & Constructor Chaining
 * **Inheritance:** Designing hierarchical relationships (single and multilevel inheritance with classes like `Calc`, `AdvCalc`, and `VeryAdvCalc`).
 * **Constructor Chaining:** Controlling constructor execution flow in inheritance chains using `super()` and `this()` calls.
+
+### 📅 Day 7: Packages & Method Overriding
+* **Method Overriding:** Overriding parent class methods in child classes to implement specialized behavior.
+* **Packages and Imports:** Grouping and managing classes using packages (`package JavaDay7;`) and utilizing import statements.
+
+### 📅 Day 8: Polymorphism, Object Class Methods & Inner Classes
+* **Polymorphism:** Understanding dynamic method dispatch and referencing subclass instances via superclass variables.
+* **Object Methods Overriding:** Customizing inherited `toString()` and `equals()` methods for class-specific comparisons and representation.
+* **`final` Keyword & Inner Classes:** Exploring the restriction of method overriding using the `final` keyword and declaring nested/inner classes.
 
 ---
 
