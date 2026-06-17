@@ -67,7 +67,7 @@ public class Main {
 
         //Abstract Keyword
         // Car obj = new Car();        //can't create object of abstract class
-        Car obj = new WagonR();   
+        Car obj = new UpdateWagonR();
         obj.drive();
         obj.playMusic();
         obj.fly();
