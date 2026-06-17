@@ -6,18 +6,20 @@ A clean, structured workspace containing daily practice programs, hands-on exerc
 
 ## 📂 Repository Structure
 
-The codebase is organized chronologically into daily folders, each containing standalone executable Java files and concepts:
+The codebase is organized chronologically under the `CoreJava` directory, with daily folders containing standalone executable Java files and core concepts:
 
 ```text
 Java/
-├── JavaDay1/        # Daily practice source files
-├── JavaDay2/        # Daily practice source files
-├── JavaDay3/        # Daily practice source files
-├── JavaDay4/        # Daily practice source files
-├── JavaDay5/        # Daily practice source files
-├── JavaDay6/        # Daily practice source files
-├── JavaDay7/        # Daily practice source files
-└── JavaDay8/        # Daily practice source files
+└── CoreJava/
+    ├── JavaDay1/        # Daily practice source files
+    ├── JavaDay2/        # Daily practice source files
+    ├── JavaDay3/        # Daily practice source files
+    ├── JavaDay4/        # Daily practice source files
+    ├── JavaDay5/        # Daily practice source files
+    ├── JavaDay6/        # Daily practice source files
+    ├── JavaDay7/        # Daily practice source files
+    ├── JavaDay8/        # Daily practice source files
+    └── JavaDay9/        # Daily practice source files
 ```
 
 ---
@@ -64,6 +66,11 @@ Here is a summary of the Java concepts explored and practiced across the daily f
 * **Object Methods Overriding:** Customizing inherited `toString()` and `equals()` methods for class-specific comparisons and representation.
 * **`final` Keyword & Inner Classes:** Exploring the restriction of method overriding using the `final` keyword and declaring nested/inner classes.
 
+### 📅 Day 9: Type Casting, Wrapper Classes & Abstract Keyword
+* **Type Casting:** Reference type casting in inheritance, including upcasting (referencing subclass by superclass) and downcasting (casting back to subclass).
+* **Wrapper Classes:** Autoboxing, auto-unboxing, and string parsing (e.g., `Integer.parseInt()`).
+* **Abstract Keyword:** Defining abstract classes and abstract methods to design class templates, understanding that abstract classes cannot be instantiated, and implementing concrete subclasses.
+
 ---
 
 ## 📚 Learning Reference
@@ -95,18 +102,23 @@ javac -version
 
 ## 🚀 How to Run the Code
 
-You can compile and run any of the daily programs directly from your terminal.
+You can compile and run any of the daily programs directly from your terminal. Since files are organized under packages within the `CoreJava` directory, navigate to the `CoreJava` folder first:
 
-### Step 1: Compile the Program
-Navigate to the root directory of this repository and compile the target Java file using the Java compiler (`javac`):
+### Step 1: Navigate to the `CoreJava` Directory
 ```bash
-javac JavaDay6/Main.java
+cd CoreJava
 ```
 
-### Step 2: Run the Executable
-Execute the compiled bytecode using the Java runner (`java`). Make sure to specify the package-relative path:
+### Step 2: Compile the Program
+Compile the target Java file using the Java compiler (`javac`):
 ```bash
-java JavaDay6.Main
+javac JavaDay9/Main.java
+```
+
+### Step 3: Run the Executable
+Execute the compiled bytecode using the Java runner (`java`) by specifying the package-qualified class name:
+```bash
+java JavaDay9.Main
 ```
 
 ---
